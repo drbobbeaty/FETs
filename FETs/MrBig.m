@@ -420,7 +420,7 @@
  needs to do the job and so I won't have to do much before getting right
  to it.
  */
-- (void) runSim:(id)sender
+- (IBAction) runSim:(id)sender
 {
 	BOOL				error = NO;
 //	SimWorkspace*		ws = nil;
