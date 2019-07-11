@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323DA9B922D7744400A3CCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323DA9B822D7744400A3CCE8 /* Assets.xcassets */; };
+		323DA9BC22D7744400A3CCE8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323DA9BA22D7744400A3CCE8 /* MainMenu.xib */; };
+		323DA9BF22D7744400A3CCE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DA9BE22D7744400A3CCE8 /* main.m */; };
+		323DA9CA22D7744500A3CCE8 /* FETsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DA9C922D7744500A3CCE8 /* FETsTests.m */; };
+		323DA9D622D774B500A3CCE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323DA9D522D774B500A3CCE8 /* Cocoa.framework */; };
+		323DA9D822D774BD00A3CCE8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323DA9D722D774BD00A3CCE8 /* Accelerate.framework */; };
+		323DA9DB22D7816600A3CCE8 /* MrBig.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DA9DA22D7816600A3CCE8 /* MrBig.m */; };
+		323DA9DD22D783F500A3CCE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323DA9DC22D783F500A3CCE8 /* Foundation.framework */; };
+		323DA9DF22D783FF00A3CCE8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323DA9DE22D783FF00A3CCE8 /* AppKit.framework */; };
+		323DA9E322D79A2100A3CCE8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 323DA9E222D79A2100A3CCE8 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323DA9C622D7744500A3CCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323DA9AA22D7744300A3CCE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323DA9B122D7744300A3CCE8;
+			remoteInfo = FETs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		323DA9B222D7744300A3CCE8 /* FETs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FETs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323DA9B822D7744400A3CCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323DA9BB22D7744400A3CCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		323DA9BD22D7744400A3CCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323DA9BE22D7744400A3CCE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		323DA9C022D7744400A3CCE8 /* FETs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FETs.entitlements; sourceTree = "<group>"; };
+		323DA9C522D7744500A3CCE8 /* FETsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FETsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323DA9C922D7744500A3CCE8 /* FETsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FETsTests.m; sourceTree = "<group>"; };
+		323DA9CB22D7744500A3CCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323DA9D522D774B500A3CCE8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		323DA9D722D774BD00A3CCE8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		323DA9D922D7816600A3CCE8 /* MrBig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MrBig.h; sourceTree = "<group>"; };
+		323DA9DA22D7816600A3CCE8 /* MrBig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MrBig.m; sourceTree = "<group>"; };
+		323DA9DC22D783F500A3CCE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		323DA9DE22D783FF00A3CCE8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		323DA9E222D79A2100A3CCE8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323DA9AF22D7744300A3CCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323DA9DF22D783FF00A3CCE8 /* AppKit.framework in Frameworks */,
+				323DA9DD22D783F500A3CCE8 /* Foundation.framework in Frameworks */,
+				323DA9D822D774BD00A3CCE8 /* Accelerate.framework in Frameworks */,
+				323DA9D622D774B500A3CCE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323DA9C222D7744500A3CCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323DA9A922D7744300A3CCE8 = {
+			isa = PBXGroup;
+			children = (
+				323DA9E222D79A2100A3CCE8 /* README.md */,
+				323DA9B422D7744300A3CCE8 /* FETs */,
+				323DA9C822D7744500A3CCE8 /* FETsTests */,
+				323DA9E022D7845A00A3CCE8 /* Other Sources */,
+				323DA9E122D7849300A3CCE8 /* Resources */,
+				323DA9B322D7744300A3CCE8 /* Products */,
+				323DA9D422D774B400A3CCE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		323DA9B322D7744300A3CCE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9B222D7744300A3CCE8 /* FETs.app */,
+				323DA9C522D7744500A3CCE8 /* FETsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323DA9B422D7744300A3CCE8 /* FETs */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9D922D7816600A3CCE8 /* MrBig.h */,
+				323DA9DA22D7816600A3CCE8 /* MrBig.m */,
+			);
+			path = FETs;
+			sourceTree = "<group>";
+		};
+		323DA9C822D7744500A3CCE8 /* FETsTests */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9C922D7744500A3CCE8 /* FETsTests.m */,
+				323DA9CB22D7744500A3CCE8 /* Info.plist */,
+			);
+			path = FETsTests;
+			sourceTree = "<group>";
+		};
+		323DA9D422D774B400A3CCE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9DE22D783FF00A3CCE8 /* AppKit.framework */,
+				323DA9DC22D783F500A3CCE8 /* Foundation.framework */,
+				323DA9D722D774BD00A3CCE8 /* Accelerate.framework */,
+				323DA9D522D774B500A3CCE8 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323DA9E022D7845A00A3CCE8 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9BE22D7744400A3CCE8 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		323DA9E122D7849300A3CCE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				323DA9B822D7744400A3CCE8 /* Assets.xcassets */,
+				323DA9BA22D7744400A3CCE8 /* MainMenu.xib */,
+				323DA9BD22D7744400A3CCE8 /* Info.plist */,
+				323DA9C022D7744400A3CCE8 /* FETs.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323DA9B122D7744300A3CCE8 /* FETs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323DA9CE22D7744500A3CCE8 /* Build configuration list for PBXNativeTarget "FETs" */;
+			buildPhases = (
+				323DA9AE22D7744300A3CCE8 /* Sources */,
+				323DA9AF22D7744300A3CCE8 /* Frameworks */,
+				323DA9B022D7744300A3CCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FETs;
+			productName = FETs;
+			productReference = 323DA9B222D7744300A3CCE8 /* FETs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323DA9C422D7744500A3CCE8 /* FETsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323DA9D122D7744500A3CCE8 /* Build configuration list for PBXNativeTarget "FETsTests" */;
+			buildPhases = (
+				323DA9C122D7744500A3CCE8 /* Sources */,
+				323DA9C222D7744500A3CCE8 /* Frameworks */,
+				323DA9C322D7744500A3CCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323DA9C722D7744500A3CCE8 /* PBXTargetDependency */,
+			);
+			name = FETsTests;
+			productName = FETsTests;
+			productReference = 323DA9C522D7744500A3CCE8 /* FETsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323DA9AA22D7744300A3CCE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bob Beaty";
+				TargetAttributes = {
+					323DA9B122D7744300A3CCE8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					323DA9C422D7744500A3CCE8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 323DA9B122D7744300A3CCE8;
+					};
+				};
+			};
+			buildConfigurationList = 323DA9AD22D7744300A3CCE8 /* Build configuration list for PBXProject "FETs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323DA9A922D7744300A3CCE8;
+			productRefGroup = 323DA9B322D7744300A3CCE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323DA9B122D7744300A3CCE8 /* FETs */,
+				323DA9C422D7744500A3CCE8 /* FETsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323DA9B022D7744300A3CCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323DA9E322D79A2100A3CCE8 /* README.md in Resources */,
+				323DA9B922D7744400A3CCE8 /* Assets.xcassets in Resources */,
+				323DA9BC22D7744400A3CCE8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323DA9C322D7744500A3CCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323DA9AE22D7744300A3CCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323DA9DB22D7816600A3CCE8 /* MrBig.m in Sources */,
+				323DA9BF22D7744400A3CCE8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323DA9C122D7744500A3CCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323DA9CA22D7744500A3CCE8 /* FETsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323DA9C722D7744500A3CCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323DA9B122D7744300A3CCE8 /* FETs */;
+			targetProxy = 323DA9C622D7744500A3CCE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323DA9BA22D7744400A3CCE8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323DA9BB22D7744400A3CCE8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323DA9CC22D7744500A3CCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		323DA9CD22D7744500A3CCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		323DA9CF22D7744500A3CCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FETs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZDQTSCKGW9;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themanfromspud.FETs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		323DA9D022D7744500A3CCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FETs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZDQTSCKGW9;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themanfromspud.FETs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		323DA9D222D7744500A3CCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZDQTSCKGW9;
+				INFOPLIST_FILE = FETsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themanfromspud.FETsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FETs.app/Contents/MacOS/FETs";
+			};
+			name = Debug;
+		};
+		323DA9D322D7744500A3CCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZDQTSCKGW9;
+				INFOPLIST_FILE = FETsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themanfromspud.FETsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FETs.app/Contents/MacOS/FETs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323DA9AD22D7744300A3CCE8 /* Build configuration list for PBXProject "FETs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323DA9CC22D7744500A3CCE8 /* Debug */,
+				323DA9CD22D7744500A3CCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323DA9CE22D7744500A3CCE8 /* Build configuration list for PBXNativeTarget "FETs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323DA9CF22D7744500A3CCE8 /* Debug */,
+				323DA9D022D7744500A3CCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323DA9D122D7744500A3CCE8 /* Build configuration list for PBXNativeTarget "FETsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323DA9D222D7744500A3CCE8 /* Debug */,
+				323DA9D322D7744500A3CCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323DA9AA22D7744300A3CCE8 /* Project object */;
+}
